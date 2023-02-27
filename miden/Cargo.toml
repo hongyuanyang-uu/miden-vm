@@ -34,7 +34,7 @@ harness = false
 
 [features]
 concurrent = ["prover/concurrent", "std"]
-default = ["std"]
+default = ["concurrent"]
 executable = ["crypto", "env_logger", "hex/std", "std", "serde/std", "serde_derive", "serde_json/std", "structopt", "winter-utils", "rustyline"]
 std = ["air/std", "assembly/std", "log/std", "processor/std", "prover/std", "verifier/std", "vm-core/std"]
 
